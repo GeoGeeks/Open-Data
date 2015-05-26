@@ -147,6 +147,9 @@ background: #606061;}
 <!-- banner inicial esricolombia #conMapasSeDiceMejor:
 - En este espacio se puede modificar la cabecera del portar, en donde está el banner con un link al home.
 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 <img  style="float:left;height: 58px;" class="header-image" src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/d27e3ffa349d4105a85f1e4e2f0480d7/data" alt="Demografía logo" />
 <!-- facebook -->
 <a href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://datosabiertos.esri.co&amp;p[images][0]=http://logicum.co/wp-content/uploads/2013/01/sharetweetbuttons.jpg&amp;p[title]=&#35;conMapasSeDiceMejor+&amp;p[summary]=&#35;conMapasSeDiceMejor&amp;pt=[TEXT]conmapasedicemejor" onclick="window.open(this.href, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><img  src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/c29f0c316e584133b7bd9bf43ab4989d/data" style="float:left;height: 58px;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/87745d6985b34c96b7ca4a3e84c0b213/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/c29f0c316e584133b7bd9bf43ab4989d/data';"/></a>
@@ -202,13 +205,11 @@ background: #606061;}
                 <div class="item active">
                   <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/2dbe9c0c41a742c98f303d79fe29527c/data" alt="...">
                   <div class="carousel-caption">
-            
                   </div>
                 </div>
                 <div class="item">
                   <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/a7beb3d3bcb04f44af4a7ccd3866e56e/data" alt="...">
                   <div class="carousel-caption">
-            
                   </div>
                 </div>
                  <div class="item">
@@ -225,10 +226,6 @@ background: #606061;}
         </div>
   </div>
 </div>
-<script>
-    
-        
-</script>
 
 <!-- salto del linea entre puntos del carrucel y video -->
 <br><br><br>
@@ -258,7 +255,7 @@ background: #606061;}
   <!-- título -->
   <div class="col-md-12">
     <div class="col-1 row-1 sizex-12 sizey-1" >
-         <p style="color:#c71d62; font-size:200%; " >Navega nuestras categorias</p>
+         <p style="color:#c71d62; font-size:200%; " >Navega nuestras categorías</p>
     </div>
   </div>
 </div>
@@ -278,9 +275,11 @@ background: #606061;}
       </div>
       
       <!-- Educación -->
+      
       <div class="col-md-2">
-        <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/437e09f7f16c48d69666299c269aa74f/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/49e7618e65784c6289b5033ca544417c/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/437e09f7f16c48d69666299c269aa74f/data';"/>
-        
+        <a href="/datasets?q=Educacion">
+        <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/ba5449cd8691413bb8195e9185855abb/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/7381d6a4b9474989affa7dc54a57c8d4/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/ba5449cd8691413bb8195e9185855abb/data';"/>
+        <a/>
       </div>
       
       <!-- Defensa e Inteligencia -->
@@ -294,10 +293,11 @@ background: #606061;}
         <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/4c31a49c312c43bc8d163ae774ec586f/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/49e7618e65784c6289b5033ca544417c/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/4c31a49c312c43bc8d163ae774ec586f/data';"/>
           
       </div>
-      
+         <!-- Recursos Naturales -->
       <div class="col-md-2">
-        <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/f11c824c959c455287c76e981982fd50/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/49e7618e65784c6289b5033ca544417c/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/f11c824c959c455287c76e981982fd50/data';"/>
-          
+        <a href="/datasets?q=Ambiente">
+        <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/a9bb4c6286cc4840b7b36f9dac20de40/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/d3bb8bee273f4896820dbd432a0affd8/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/a9bb4c6286cc4840b7b36f9dac20de40/data';"/>
+        <a/>
       </div>
 </div>  
 
@@ -312,7 +312,9 @@ background: #606061;}
        <p align="center" style="line-height: 130%;  color:#666666;"><font size="4" >Infraestructura <br>y Transporte</font></p>
      </div>
      <div class="col-md-2">
+       <a href="/datasets?q=Educacion">
        <p align="center" style="line-height: 130%;  color:#666666;"><font size="4" >Educación</font></p>
+       <a/>
      </div>
      <div class="col-md-2">
        <p align="center" style="line-height: 130%;  color:#666666;"><font size="4" >Defensa e <br>Inteligencia</font></p>
@@ -321,7 +323,9 @@ background: #606061;}
        <p align="center" style="line-height: 130%;  color:#666666;"><font size="4" >Minería</font></p>
      </div>
      <div class="col-md-2">
+        <a href="/datasets?q=Ambiente">
        <p align="center" style="line-height: 130%;  color:#666666;"><font size="4" >Recursos<br> Naturales</font></p>
+       <a/>
      </div>
 </div>
 
@@ -329,14 +333,16 @@ background: #606061;}
 <div class="row" >
       <!-- Comercio y Negocios -->
        <div class="col-md-2">
-          <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/a7fd24de3b894f8290441b92e562de4e/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/49e7618e65784c6289b5033ca544417c/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/a7fd24de3b894f8290441b92e562de4e/data';"/>
-            
+          <a href="/datasets?q=Comercio">
+          <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/8263fdf4912c4a64b9a6f3f5fab53e1f/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/9d5a8fd074994551b5581cf6977631ca/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/8263fdf4912c4a64b9a6f3f5fab53e1f/data';"/>
+          <a/>
       </div>
       
       <!-- Gobierno -->
       <div class="col-md-2">
-        <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/472731b1d4994a039793f3aaeeea0938/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/49e7618e65784c6289b5033ca544417c/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/472731b1d4994a039793f3aaeeea0938/data';"/>
-          
+        <a href="/datasets?q=Gobierno">
+        <img src="http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/2fd493cf1c8846e99a3e0423e036cfeb/data" style="max-width: 100%;  max-height: 100%; cursor:pointer;" onmouseover="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/280d690bd61a4cf38ba7b40183c0b04f/data';" onmouseout="this.src='http://esri-colombia.maps.arcgis.com/sharing/rest/content/items/2fd493cf1c8846e99a3e0423e036cfeb/data';"/>
+        <a/>
       </div>
       
       <!-- Servicios Públicos -->
@@ -364,10 +370,14 @@ background: #606061;}
 <!-- texto segundo renglon -->
 <div class="row" >
      <div class="col-md-2">
+      <a href="/datasets?q=Comercio">
       <p align="center" style="line-height: 130%;  color:#666666;"><font size="4" >Comercio<br> y Negocios</font></p>
+      <a/>
      </div>
      <div class="col-md-2">
+       <a href="/datasets?q=Gobierno">
        <p align="center" style="line-height: 130%;  color:#666666;"><font size="4" >Gobierno</font></p>
+       <a/>
      </div>
      <div class="col-md-2">
        <p align="center" style="line-height: 130%;  color:#666666;"><font size="4" >Servicios<br> Públicos</font></p>
